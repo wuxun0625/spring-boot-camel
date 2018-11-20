@@ -12,7 +12,7 @@ public class mainClass {
 
 			@Override
 			public void configure() throws Exception {
-				// noop表示等待、无操作
+				// noop表示等待、无操作11
 				from("file:F:/temp/folder1?noop=true").to("file:F:/temp/folder2");
 			}
 		});
